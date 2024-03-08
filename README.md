@@ -19,7 +19,7 @@
   Use it to create and delete various types of notes.
 
   ## License 
-  N/A
+  This project is under an MIT license.
 
   ## Credits 
   This app was built using express.
@@ -34,4 +34,4 @@
   
 
   ## Contact
-   You can view more of my projects at https://github.com/JakeHigham
+   You can view more of my projects at https://github.com/JakeHigham, any suggestions or if you'd like to contribute reach out to me at jacobhcvn65@gmail.com
