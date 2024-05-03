@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+require('./Routes/apiRoutes')(app);
+require('./Routes/htmlRoutes')(app);
 
 
 app.listen(PORT, () => {
