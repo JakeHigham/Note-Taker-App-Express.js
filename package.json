@@ -1,14 +1,15 @@
 {
-  "name": "note-taker",
+  "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Command-line application to manage a company's employee database",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.2.4",
+    "uniqid": "^5.4.0"
   }
 }
